@@ -1,8 +1,26 @@
 aid: mixhalo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mixhalo.png
 name: Mixhalo
-description: 'Mixhalo is a company surfaced as a portfolio company of cowboy-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Mixhalo is an AI-enabled digital audio platform for live events that streams
+  broadcast-quality speaker audio, real-time language interpretation, transcription, and
+  summaries directly to attendees'' smartphones, eliminating the need for silent-session
+  headsets or dedicated receiver hardware. Its flagship product, Mixhalo Live, delivers
+  low-latency multilingual audio into event apps, and it has partnered with Eventbase to
+  offer an SDK for embedding the experience in client event applications. Mixhalo is now
+  part of DeepL, extending DeepL''s multilingual communication capabilities to in-person
+  events. The company is backed by Cowboy Ventures. This profile currently exposes no
+  public developer portal or API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/mixhalo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Audio
+- Live Events
+- Translation
+- Interpretation
+- Transcription
+- Mobile
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mixhalo-domain-security.yml
 - type: Website
   url: https://www.mixhalo.com
+- type: About
+  url: https://www.mixhalo.com/about
+- type: Support
+  url: https://www.mixhalo.com/contact
+- type: TermsOfService
+  url: https://www.mixhalo.com/terms
+- type: PrivacyPolicy
+  url: https://www.mixhalo.com/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
